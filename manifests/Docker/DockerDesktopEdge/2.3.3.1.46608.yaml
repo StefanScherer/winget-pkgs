@@ -1,0 +1,26 @@
+
+# ================== General ==================
+
+Id: Docker.DockerDesktopEdge
+Publisher: Docker Inc.
+Name: Docker Desktop Edge
+AppMoniker: docker-edge
+Description: Docker Desktop is an application for MacOS and Windows machines for the building and sharing of containerized applications. Access Docker Desktop and follow the guided onboarding to build your first containerized application in minutes.
+Homepage: https://www.docker.com
+Tags: Container, Containerization, Virtualization
+
+Version: 2.3.3.1.46608
+
+License: Copyright © 2016-2020 Docker Inc. All rights reserved.
+LicenseUrl: https://www.docker.com/legal/docker-software-end-user-license-agreement
+
+# ================= Installer =================
+
+InstallerType: exe
+Installers:
+- Arch: x64
+Url: https://desktop.docker.com/win/edge/46608/Docker%20Desktop%20Installer.exe
+Sha256: 9cd9206ac7cf90b6990a66355bfde76c0b3e7a315c97301ff5724c8236514e06
+Switches:
+Silent: install --quiet
+SilentWithProgress: install --quiet			
